@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+    /* Container for the background image */
+    .bg-image {
+      background: url('./images/bg.png') no-repeat center center;
+      background-size: cover;
+      height: 400px; /* Set the desired height */
+      position: sticky;
+      top: 0;
+      color: white; /* Text color for content */
+    }
+
+    /* Content inside the background image */
+    .bg-image .content {
+      position: absolute;
+
+      top:50%;
+      left: 10%; /* Align content to the left side */
+      transform: translateY(-50%); /* Center vertically */
+      text-align: left;
+      font-family: 'Roboto', sans-serif; /* Apply a different font style */
+      font-weight: bold; /* Make the text bold */
+    }
+
+    .bg-image .content h1 {
+      font-size: 48px; /* Large font size for bold text */
+    }
+
+    .bg-image .content p {
+      font-size: 20px; /* Adjust the font size for the paragraph */
+    }
+
+    .bg-image .content .btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+
+    /* Transparent Navbar */
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.5); /* Adjust the rgba for transparency */
+    }
+
+    .navbar .navbar-brand, .navbar-nav .nav-link {
+      color: white;
+    }
+
+    .navbar .navbar-brand:hover, .navbar-nav .nav-link:hover {
+      color: #ddd;
+    }
+
+    /* Form Section */
+    #form-section {
+      display: none; /* Initially hide the form */
+      padding: 50px 0;
+    }
+    
+    .sticky-top {
+      background-color: lightgray; /* Initial background color */
+      transition: background-color 0.3s ease; /* Smooth transition for the background color */
+    }
+
+    /* Background color when scrolled past */
+    .sticky-top.scrolled {
+      background-color: white; /* Background color when scrolled */
+    }
+    .content-section {
+      height: 100vh; /* Full viewport height for scrolling effect */
+      padding: 50px;
+      background-color: #f8f9fa;
+    }
+.head4{
+  height: 50px;
+  width: 100%;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+.head5{
+  height: 50px;
+  width: 100%;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+.row1{
+  margin-top: 10px;
+  padding-top: 5px;
+  height: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.row2{
+  height: 400px;
+ 
+}
+.col2{
+  height: 100px;
+  width: 160px;
+  border: solid;
+
+}
+.col1{
+  display: flex;
+  flex-direction: row;
+}
+.col3{
+  display: flex;
+}
+.col4{
+  display: flex;
+}
+.col5{
+  margin-left: 160px;
+}
+.north{
+  height: 70px;
+  width: 100%;
+  text-align: center;
+}
+.nt{
+  height: 200px;
+  width: 150px;
+}
+.NORTHTOURS{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nt:hover {
+  color: rgb(5, 38, 71) ; 
+}
+.div6{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+span{
+  color: red;
+  font-size: small;
+}
+.div7{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.pf{
+  height: 280px;
+  width: 180px;
+  border: solid;
+}
+.btn5{
+  margin-left: 30px;
+}
+.fin{
+  height: 500px;
+  width: 180px;
+}
+.final2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.fhesd{
+  text-align: center;
+}
+.finl{
+  height: 300px;
+  width: 100%;
+  background-color: rgb(13, 13, 54);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.fh{
+  color: orange;
+}
+.fin3{
+  display: flex;
+  flex-direction: column;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-around;
+}
+.p2{
+  color: white;
+}
+.red{
+  color: red;
+}
